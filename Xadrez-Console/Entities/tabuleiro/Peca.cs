@@ -17,6 +17,9 @@ namespace tabuleiro
             Cor = cor;
             Tab = tab;
         }
-
+        public void IncrementarMovimentos()
+        {
+            QtdMovimentos++;
+        }
     }
 }
