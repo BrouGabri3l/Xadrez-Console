@@ -66,6 +66,7 @@ namespace xadrez
                 }
                 pos.Coluna--;
             }
+           
             return mat;
 
         }
